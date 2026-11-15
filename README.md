@@ -10,7 +10,7 @@ After this is all done, download a payload from somewhere (I would recommend the
 If on MacOS, then make sure to save as plain text file, then convert the extension to .dd.
 After this is all done, the pico-ducky should work.
 
-To edit payloads, bridge the GPIO pins: 1 and 3, so it shows up as USB drive again.
+To edit payloads, bridge the GPIO pins: 0 and GND, so it shows up as USB drive again.
 
 Alternatively, you can name your payloads: payload1.dd, payload2.dd, payload3.dd, or payload4.dd. you can have a maximum of 4 payloads held, and to switch between, 
 payload1 = GPIO4 to GND
