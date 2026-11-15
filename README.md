@@ -1,4 +1,4 @@
-These are instructions on how to install on RPI pico
+These are instructions on how to install on RPI pico with no wireless
 
 First, download the circuitpython .UF2 for your board here https://circuitpython.org/downloads. 
 Then, plug your pico into your computer, while holding the BOOTSEL button.
@@ -11,3 +11,5 @@ If on MacOS, then make sure to save as plain text file, then convert the extensi
 After this is all done, the pico-ducky should work.
 
 To edit payloads, bridge the GPIO pins: 1 and 3, so it shows up as USB drive again.
+
+To add wireless, do the same steps installing circuitpython, but copy the contents of the Root (Wireless) folder. To control payloads, connect to its wifi, it will be broadcasted as 'Pico2-BadUSB' and the password will be 'duckypassword123'. To change these, go into settings.toml.
