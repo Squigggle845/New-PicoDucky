@@ -12,7 +12,8 @@ After this is all done, the pico-ducky should work.
 
 To edit payloads, bridge the GPIO pins: 0 and GND, so it shows up as USB drive again.
 
-Alternatively, you can name your payloads: payload1.dd, payload2.dd, payload3.dd, or payload4.dd. You can have a maximum of 4 payloads held, and to switch between, 
+Alternatively, you can name your payloads: payload1.dd, payload2.dd, payload3.dd, or payload4.dd. You can have a maximum of 4 payloads held, and to switch between:
+
 payload1 = GPIO4 to GND
 
 payload2 = GPIO5 to GND
