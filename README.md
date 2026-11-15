@@ -14,6 +14,9 @@ To edit payloads, bridge the GPIO pins: 0 and GND, so it shows up as USB drive a
 
 Alternatively, you can name your payloads: payload1.dd, payload2.dd, payload3.dd, or payload4.dd. You can have a maximum of 4 payloads held, and to switch between, 
 payload1 = GPIO4 to GND
+
 payload2 = GPIO5 to GND
+
 payload3 = GPIO10 to GND
+
 payload4 = GPIO11 to GND
