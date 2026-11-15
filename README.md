@@ -12,4 +12,8 @@ After this is all done, the pico-ducky should work.
 
 To edit payloads, bridge the GPIO pins: 1 and 3, so it shows up as USB drive again.
 
-To add wireless, (Pico 2 W needed) do the same steps installing circuitpython, but copy the contents of the Root (Wireless) folder. To control payloads, connect to its wifi, it will be broadcasted as 'Pico2-BadUSB' and the password will be 'duckypassword123'. To change these, go into settings.toml.
+Alternatively, you can name your payloads: payload1.dd, payload2.dd, payload3.dd, or payload4.dd. you can have a maximum of 4 payloads held, and to switch between, 
+payload1 = GPIO4 to GND
+payload2 = GPIO5 to GND
+payload3 = GPIO10 to GND
+payload4 = GPIO11 to GND
