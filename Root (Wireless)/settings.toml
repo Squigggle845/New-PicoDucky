@@ -1,4 +1,0 @@
-WIFI_MODE = "AP"
-WIFI_SSID = "Pico2-BadUSB"
-WIFI_PASSWORD = "duckypassword123"
-AUTO_RUN_ON_BOOT = 0
